@@ -108,7 +108,6 @@ class DetailViewController: UIViewController,UIAdaptivePresentationControllerDel
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-       
     }
 
 }
