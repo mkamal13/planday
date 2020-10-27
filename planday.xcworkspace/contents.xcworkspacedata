@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/mk/xcodeprojects/planday/planday/Model/DepartmentsService.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/mk/xcodeprojects/planday/extension.swift">
+   </FileRef>
+   <FileRef
+      location = "group:planday.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

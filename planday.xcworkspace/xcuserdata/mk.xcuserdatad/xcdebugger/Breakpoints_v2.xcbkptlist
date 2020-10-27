@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "14613612-6338-4D77-8625-059D2F97AEE9"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D029D5B-4B38-4E26-A7DF-C187D9F269D5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "fetchEmployees(Authorization:ClientId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9D029D5B-4B38-4E26-A7DF-C187D9F269D5 - afcacc9169c2b9a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planday.ViewController.fetchEmployees(Authorization: Swift.String, ClientId: Swift.String) -&gt; ()"
+                  moduleName = "planday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mk/xcodeprojects/planday/planday/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "9D029D5B-4B38-4E26-A7DF-C187D9F269D5 - bad659445f49233a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in planday.ViewController.fetchEmployees(Authorization: Swift.String, ClientId: Swift.String) -&gt; ()"
+                  moduleName = "planday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mk/xcodeprojects/planday/planday/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0DA7C55-7B64-4D93-904A-D19E08B0083F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "viewmodel/EmployeeListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "fetchEmployeesViewModel(Authorization:ClientId:departments:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA8E386D-6A1A-436F-B743-8D63ADE305DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/Model/DepartmentsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "FetchDepartments(Authorization:ClientId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B5BB5E0-4CFD-4564-9E5F-54427329678F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "viewmodel/EmployeeService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "fetchEmployees(Authorization:ClientId:departments:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70695F74-19E1-42BC-8AF8-23A7B50F16FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "viewmodel/EmployeeService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "fetchEmployees(Authorization:ClientId:departments:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A5C2E0B-2C2A-46EC-B033-6892E3DB2020"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/Model/DepartmentsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "FetchDepartments(Authorization:ClientId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E109E1B2-A9F7-4DBD-A052-546D886733D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/Control/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9881C2E0-042B-43D9-B435-223A263D751B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/Model/DepartmentsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "FetchDepartments(Authorization:ClientId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9881C2E0-042B-43D9-B435-223A263D751B - 6bf0138343e1e51a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (RxSwift.AnyObserver&lt;Swift.Array&lt;planday.DeptStruct&gt;&gt;) -&gt; RxSwift.Disposable in planday.DepartmentsService.FetchDepartments(Authorization: Swift.String, ClientId: Swift.String) -&gt; RxSwift.Observable&lt;Swift.Array&lt;planday.DeptStruct&gt;&gt;"
+                  moduleName = "planday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mk/xcodeprojects/planday/planday/Model/DepartmentsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  uuid = "9881C2E0-042B-43D9-B435-223A263D751B - 9215ed2f3c09abfb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in closure #2 (RxSwift.AnyObserver&lt;Swift.Array&lt;planday.DeptStruct&gt;&gt;) -&gt; RxSwift.Disposable in planday.DepartmentsService.FetchDepartments(Authorization: Swift.String, ClientId: Swift.String) -&gt; RxSwift.Observable&lt;Swift.Array&lt;planday.DeptStruct&gt;&gt;"
+                  moduleName = "planday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mk/xcodeprojects/planday/planday/Model/DepartmentsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "205">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DCF551B-1D65-4F99-87FC-05E75449B4EB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/Model/DepartmentsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "FetchDepartments(Authorization:ClientId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9DCF551B-1D65-4F99-87FC-05E75449B4EB - 327328e5dadc0c2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planday.DepartmentsService.FetchDepartments(Authorization: Swift.String, ClientId: Swift.String) -&gt; RxSwift.Observable&lt;Swift.Array&lt;planday.DeptStruct&gt;&gt;"
+                  moduleName = "planday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mk/xcodeprojects/planday/planday/Model/DepartmentsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  uuid = "9DCF551B-1D65-4F99-87FC-05E75449B4EB - 7f2349c6991abc9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;Swift.Array&lt;planday.DeptStruct&gt;&gt;) -&gt; RxSwift.Disposable in planday.DepartmentsService.FetchDepartments(Authorization: Swift.String, ClientId: Swift.String) -&gt; RxSwift.Observable&lt;Swift.Array&lt;planday.DeptStruct&gt;&gt;"
+                  moduleName = "planday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mk/xcodeprojects/planday/planday/Model/DepartmentsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "61">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96ADAE7D-3CE9-4731-BE7D-719C781CF59A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/Model/DepartmentsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "FetchDepartments(Authorization:ClientId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BA4B636-97B9-4216-9A50-B177FA9353CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "viewmodel/EmployeeService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchEmployees(Authorization:ClientId:departments:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7BA4B636-97B9-4216-9A50-B177FA9353CB - 923ed387f0f3d772"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;Swift.Array&lt;planday.EmployeeModel&gt;&gt;) -&gt; RxSwift.Disposable in planday.EmployeeService.fetchEmployees(Authorization: Swift.String, ClientId: Swift.String) -&gt; RxSwift.Observable&lt;Swift.Array&lt;planday.EmployeeModel&gt;&gt;"
+                  moduleName = "planday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mk/xcodeprojects/planday/viewmodel/EmployeeService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "435">
+               </Location>
+               <Location
+                  uuid = "7BA4B636-97B9-4216-9A50-B177FA9353CB - db18a625a64accce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in closure #1 (RxSwift.AnyObserver&lt;Swift.Array&lt;planday.EmployeeModel&gt;&gt;) -&gt; RxSwift.Disposable in planday.EmployeeService.fetchEmployees(Authorization: Swift.String, ClientId: Swift.String) -&gt; RxSwift.Observable&lt;Swift.Array&lt;planday.EmployeeModel&gt;&gt;"
+                  moduleName = "planday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mk/xcodeprojects/planday/viewmodel/EmployeeService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "206">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4ABFDEB-7F02-403E-8D3D-2F11D0FF0325"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "viewmodel/EmployeeService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchEmployees(Authorization:ClientId:departments:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E4ABFDEB-7F02-403E-8D3D-2F11D0FF0325 - 8a03aa21112add13"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planday.EmployeeService.fetchEmployees(Authorization: Swift.String, ClientId: Swift.String, departments: Swift.Array&lt;planday.DeptStruct&gt;) -&gt; RxSwift.Observable&lt;Swift.Array&lt;planday.EmployeeModel&gt;&gt;"
+                  moduleName = "planday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mk/xcodeprojects/planday/viewmodel/EmployeeService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "E4ABFDEB-7F02-403E-8D3D-2F11D0FF0325 - f1874985fcb8d4c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;Swift.Array&lt;planday.EmployeeModel&gt;&gt;) -&gt; RxSwift.Disposable in planday.EmployeeService.fetchEmployees(Authorization: Swift.String, ClientId: Swift.String, departments: Swift.Array&lt;planday.DeptStruct&gt;) -&gt; RxSwift.Observable&lt;Swift.Array&lt;planday.EmployeeModel&gt;&gt;"
+                  moduleName = "planday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mk/xcodeprojects/planday/viewmodel/EmployeeService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "77">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE33233C-4236-4914-A152-FDEAFA3AAA0E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "viewmodel/EmployeeService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "fetchEmployees(Authorization:ClientId:departments:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EA779C4-B9FB-40FF-9452-47AB0094692C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "viewmodel/EmployeeService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "fetchEmployees(Authorization:ClientId:departments:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B11A3EC0-3532-4616-9597-273420006239"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/Control/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "getEmployeesList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37F14597-8AF2-4ACB-9238-62807621CAA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/View/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getEmployee(Id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "426D77F4-8E89-418C-9036-8C54D5916C03"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/Control/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getEmployeesList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93F154F9-DA14-4249-8DCA-92A514F64DCF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/Control/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "getEmployeesList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB5FA7BB-7ED4-4EB3-AE3A-09323CEE76CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "viewmodel/EmployeeDataViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchEmployeeData(id:firstField:lastField:genderField:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FB5FA7BB-7ED4-4EB3-AE3A-09323CEE76CD - 9f57fcecc24707fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planday.EmployeeDataViewModel.fetchEmployeeData(id: Swift.Int) -&gt; ()"
+                  moduleName = "planday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mk/xcodeprojects/planday/viewmodel/EmployeeDataViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  uuid = "FB5FA7BB-7ED4-4EB3-AE3A-09323CEE76CD - bc6f64edcfe860f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (planday.EmployeeData) -&gt; () in planday.EmployeeDataViewModel.fetchEmployeeData(id: Swift.Int) -&gt; ()"
+                  moduleName = "planday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mk/xcodeprojects/planday/viewmodel/EmployeeDataViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "315F1D12-A1DC-4693-B47E-F04B0D431C72"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "viewmodel/EmployeeDataViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchEmployeeData(id:firstField:lastField:genderField:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A68CAA6-D2A7-4D60-B161-D73B20E4ADCF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/Model/EmployeeInfoService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "FetchEmployeeInfo(Id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DFB3DC2-5E90-45A2-9F4C-BAA2BC81F85A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/Model/EmployeeInfoService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "FetchEmployeeInfo(Id:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8DFB3DC2-5E90-45A2-9F4C-BAA2BC81F85A - 9e99f3a70ad95a97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "planday.EmployeeInfoService.FetchEmployeeInfo(Id: Swift.Int) -&gt; RxSwift.Observable&lt;planday.EmployeeData&gt;"
+                  moduleName = "planday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mk/xcodeprojects/planday/planday/Model/EmployeeInfoService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "8DFB3DC2-5E90-45A2-9F4C-BAA2BC81F85A - c5c5dd2c2036f65e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;planday.EmployeeData&gt;) -&gt; RxSwift.Disposable in planday.EmployeeInfoService.FetchEmployeeInfo(Id: Swift.Int) -&gt; RxSwift.Observable&lt;planday.EmployeeData&gt;"
+                  moduleName = "planday"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mk/xcodeprojects/planday/planday/Model/EmployeeInfoService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A6CBF52-E46B-41DE-93FD-D75FFBD343C6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/Model/EmployeeInfoService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "FetchEmployeeInfo(Id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3167B5E5-5321-412D-8DAA-EE249ABB1387"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/Model/EmployeeInfoService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "FetchEmployeeInfo(Id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73D141D2-56DD-4378-9207-840D648A6B2C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/View/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "jsonEncodeFields()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "432DFF7C-AF1C-4F7E-8144-E09B100D4ECC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/View/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "jsonEncodeFields()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32287301-917E-4DB2-B689-45245AEC48C0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/View/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "saveFields()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "748CD8B7-F943-470E-81F7-019005EDEF29"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/View/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "saveFields()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CE1512B-73C6-4904-B3FE-E5775BB42214"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "planday/View/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "saveFields()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
