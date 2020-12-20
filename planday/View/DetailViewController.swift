@@ -50,13 +50,13 @@ class DetailViewController: UIViewController,UIAdaptivePresentationControllerDel
         let yesAction = UIAlertAction(title: "Yes", style: .default) { (action) -> Void in
             self.saveFields()
             self.dismiss(animated:true, completion: nil)
-            var parentController = self.presentingViewController as! ViewController
+            var parentController = self.presentingViewController as! EmployeesViewController
              parentController.getEmployeesList()
             }
             
         let noAction = UIAlertAction(title: "No", style: .default) { (action) -> Void in
             self.dismiss(animated:true, completion: nil)
-           var parentController = self.presentingViewController as! ViewController
+           var parentController = self.presentingViewController as! EmployeesViewController
             parentController.getEmployeesList()
             }
             

@@ -11,7 +11,7 @@ import Foundation
 import Alamofire
 import RxAlamofire
 
-class ViewController: UIViewController  {
+class EmployeesViewController: UIViewController  {
  
     func enableSelection()  {
         tableView.rx.modelSelected(EmployeeModel.self)

@@ -2,11 +2,11 @@ import Foundation
 
 // MARK: - EmployeeData
 struct EmployeeData: Codable {
-    let data: DataClass
+    let data: EmployeeDataClass
 }
 
 // MARK: - DataClass
-struct DataClass: Codable {
+struct EmployeeDataClass: Codable {
     let id: Int
     let salaryIdentifier, gender: String
     let employeeTypeID: Int

@@ -26,9 +26,7 @@ func fetchEmployees(Authorization:String ,ClientId:String, departments:[DeptStru
     AF.request("https://openapi.planday.com/hr/v1/employees", headers: headers).responseData  { response in
             do{
                var Employees = try JSONDecoder().decode(EmployeeList.self, from: response.value!)
-//                self.EmployeesDataSource.accept(Employees.data)
-//                Employees.data.indices.forEach{Employees.data[$0] = ["po"]}
-               var r=departments
+                var r=departments
                 
                 Employees.data = Employees.data.map{ value -> EmployeeModel in
                     var cop=value
