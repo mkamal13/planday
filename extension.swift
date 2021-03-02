@@ -7,7 +7,6 @@
 
 import Foundation
 import RxSwift
-import RxAlamofire
 enum ApiResult<Value, Error>{
     case success(Value)
     case failure(Error)

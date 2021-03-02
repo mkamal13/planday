@@ -29,6 +29,7 @@
 		4D9688E3252D2BB60020E981 /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9688E2252D2BB50020E981 /* EmployeeCell.swift */; };
 		4DA8B2D0252FE6CC003AF6A9 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8B2CF252FE6CC003AF6A9 /* extension.swift */; };
 		4DA8B2D5253549BD003AF6A9 /* EmployeeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8B2D4253549BD003AF6A9 /* EmployeeList.swift */; };
+		4DCEABCC25EE86310087C097 /* DepartmentsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCEABCB25EE86310087C097 /* DepartmentsService.swift */; };
 		7BDBADE31A21287AE1229D02 /* Pods_planday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432482668A37576A875506C5 /* Pods_planday.framework */; };
 		8ED413A97DADA593D2010690 /* Pods_planday_plandayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AE3C9401FC3F7726F61C7D /* Pods_planday_plandayUITests.framework */; };
 /* End PBXBuildFile section */
@@ -82,6 +83,7 @@
 		4D9688E2252D2BB50020E981 /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
 		4DA8B2CF252FE6CC003AF6A9 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = extension.swift; path = /Users/mk/xcodeprojects/planday/extension.swift; sourceTree = "<absolute>"; };
 		4DA8B2D4253549BD003AF6A9 /* EmployeeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeList.swift; sourceTree = "<group>"; };
+		4DCEABCB25EE86310087C097 /* DepartmentsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DepartmentsService.swift; path = /Users/mk/xcodeprojects/planday/viewmodel/DepartmentsService.swift; sourceTree = "<absolute>"; };
 		7B4FF6EEFB1D790BABA5C6FC /* Pods-planday-plandayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planday-plandayUITests.debug.xcconfig"; path = "Target Support Files/Pods-planday-plandayUITests/Pods-planday-plandayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		874D7CC2DD096592D3DA3A5C /* Pods-planday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planday.debug.xcconfig"; path = "Target Support Files/Pods-planday/Pods-planday.debug.xcconfig"; sourceTree = "<group>"; };
 		C12A75F314DF8D6649E82080 /* Pods-planday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planday.release.xcconfig"; path = "Target Support Files/Pods-planday/Pods-planday.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		4D2C686F253CDCE700B7DB26 /* viewmodel */ = {
 			isa = PBXGroup;
 			children = (
+				4DCEABCB25EE86310087C097 /* DepartmentsService.swift */,
 				4D2C687A253CDE2C00B7DB26 /* EmployeeService.swift */,
 				4D2C6870253CDD6200B7DB26 /* EmployeeListViewModel.swift */,
 				4D144D7125464A1A0005BFAC /* EmployeeDataViewModel.swift */,
@@ -482,6 +485,7 @@
 				4D96889C25271D460020E981 /* AppDelegate.swift in Sources */,
 				4D2C68AB2546049800B7DB26 /* EmployeeInfoService.swift in Sources */,
 				4D2C6876253CDE1600B7DB26 /* DepartmentsService.swift in Sources */,
+				4DCEABCC25EE86310087C097 /* DepartmentsService.swift in Sources */,
 				4D2C687B253CDE2C00B7DB26 /* EmployeeService.swift in Sources */,
 				4D144D7225464A1A0005BFAC /* EmployeeDataViewModel.swift in Sources */,
 				4DA8B2D0252FE6CC003AF6A9 /* extension.swift in Sources */,

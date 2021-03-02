@@ -51,13 +51,13 @@ class DetailViewController: UIViewController,UIAdaptivePresentationControllerDel
             self.saveFields()
             self.dismiss(animated:true, completion: nil)
             var parentController = self.presentingViewController as! EmployeesViewController
-             parentController.getEmployeesList()
+            parentController.getEmployeesList(tableView: parentController.tableView,viewController: parentController )
             }
             
         let noAction = UIAlertAction(title: "No", style: .default) { (action) -> Void in
             self.dismiss(animated:true, completion: nil)
            var parentController = self.presentingViewController as! EmployeesViewController
-            parentController.getEmployeesList()
+            parentController.getEmployeesList(tableView: parentController.tableView,viewController: parentController )
             }
             
            // Add Actions
@@ -99,14 +99,19 @@ class DetailViewController: UIViewController,UIAdaptivePresentationControllerDel
             let headers: HTTPHeaders = [
                 "Authorization": "Bearer "+defaults.string(forKey: "access_token")!,
                 "X-ClientId": conf.clientId
+                ,            "Content-Type":"application/json",
+
             ]
             request.headers=headers
             request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        RxAlamofire.request(request as URLRequestConvertible).responseJSON().asObservable().subscribe(onNext: {
-           debugPrint ($0.data)
-        })
-    }
-    
+
+        AF.request(request).validate(contentType: ["application/json"])
+          .responseData  {
+                debugPrint ($0.data)
+
+                }
+         }
+ 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     }
 
