@@ -7,7 +7,25 @@
 		<key>planday.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4D96889725271D460020E981</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D9688AD25271D470020E981</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D9688B825271D470020E981</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
